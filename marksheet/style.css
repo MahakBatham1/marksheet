@@ -1,0 +1,49 @@
+/* Resetting default margin and padding */
+body, h1, table {
+    margin: 0;
+    padding: 0;
+  }
+  
+  
+  .mark-sheet {
+    max-width: 600px;
+    margin: 20px auto;
+    font-family: Arial, sans-serif;
+    border: 1px solid #ccc;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  
+  th {
+    background-color: #f2f2f2;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  
+  td {
+    padding: 8px;
+  }
+  
+  
+  .total,
+  .percentage {
+    margin-top: 10px;
+  }
+  
+  
+  .total span,
+  .percentage span {
+    display: inline-block;
+    width: 150px;
+    font-weight: bold;
+  }
+  
